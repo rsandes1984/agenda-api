@@ -14,7 +14,6 @@ servidor.use(express.json());
 
 servidor.use(agendamentoRouters);
 
-
 servidor.listen(3000, () => {
-    console.log("Servidor em execução.");
+  console.log("Servidor em execução.");
 });
